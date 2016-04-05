@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "css-from-html:start"
   },
-  "repository": "https://github.com/atom/css-from-html",
+  "repository": "https://github.com/kakRostropovich/atom-css-from-html",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
