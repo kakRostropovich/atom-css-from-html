@@ -1,4 +1,4 @@
-[![apm](https://img.shields.io/apm/dm/css-from-html.svg)](https://atom.io/packages/project-manager)
+[![apm](https://img.shields.io/apm/dm/css-from-html.svg)]()
 [![apm](https://img.shields.io/apm/v/css-from-html.svg)]()
 
 # Atom package: CSS from HTML
@@ -7,7 +7,7 @@
 
 **RUS:**
 
-Этот плагин для Atom позволяет скопировать в буфер обмена из HTML-документа список CSS-классов в виде готового каркаса для написания стилей.
+Этот плагин для редактора [Atom](http://atom.io) позволяет скопировать в буфер обмена из HTML-документа список CSS-классов в виде готового каркаса для написания стилей.
 
 Возможности:
 - Классы не дублируются
@@ -25,6 +25,5 @@
 - v1.0.0 - добавить индентацию в зависимости от вложенности элементов
 - v2.0.0 - добавить настройки внешнего вида получаемого CSS
 
-**EN:**
-
-TODO
+Приятной работы, коллеги!
+С уважением, [@kakRostropovich](https://twitter.com/kakrostropovich)
