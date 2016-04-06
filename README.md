@@ -1,5 +1,7 @@
 # CSS from HTML
 
+![css-from-html](https://raw.githubusercontent.com/kakRostropovich/atom-css-from-html/master/description.gif)
+
 **RUS:**
 
 Этот плагин для Atom позволяет скопировать в буфер обмена из HTML-документа список CSS-классов в виде готового каркаса для написания стилей.
