@@ -46,7 +46,7 @@ module.exports = CssFromHtml =
     prepareText = htmlParser.parse(text, {
 
         attribute: (name, value) ->
-            if name == 'class'
+            if name == 'class' || name == 'className'
 
                 # TODO: If element has @1-@n classes for custom tabulation
                 if value.indexOf('@') > 1
