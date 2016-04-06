@@ -85,22 +85,22 @@ module.exports = CssFromHtml =
                     firstClass = valueArray[0]
                     valueJoined = valueArray.join('.')
                     firstClassLine = createSelector(firstClass)
-                    tabsLine = '    '
                     allClassesLine = createSelector(valueJoined)
+
+                    for classElement in valueArray
+                      classElementLine = createSelector(classElement)
+                      if result.indexOf(classElementLine) == -1
+                        result += classElementLine
 
                     if result.indexOf(allClassesLine) == -1
 
-                        if result.indexOf(firstClassLine) == -1
-                            result += firstClassLine + allClassesLine
-
                         # If first class (base) added before
-                        else
-                            startPosition = result.indexOf(firstClassLine)
-                            lengthLine = firstClassLine.length
-                            startLine = result.slice(0, startPosition + lengthLine)
-                            finishLine = result.slice( startPosition + lengthLine )
-                            if result.indexOf(allClassesLine) == -1
-                                result = startLine + allClassesLine + finishLine
+                        startPosition = result.indexOf(firstClassLine)
+                        lengthLine = firstClassLine.length
+                        startLine = result.slice(0, startPosition + lengthLine)
+                        finishLine = result.slice( startPosition + lengthLine )
+                        if result.indexOf(allClassesLine) == -1
+                            result = startLine + allClassesLine + finishLine
 
     })
 
