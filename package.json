@@ -1,7 +1,7 @@
 {
   "name": "css-from-html",
   "main": "./lib/css-from-html",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Custom get CSS-classes from HTML",
   "keywords": [],
   "activationCommands": {
