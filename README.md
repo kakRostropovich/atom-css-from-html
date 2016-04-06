@@ -1,3 +1,6 @@
+[![apm](https://img.shields.io/apm/dm/css-from-html.svg)](https://atom.io/packages/project-manager)
+[![apm](https://img.shields.io/apm/v/css-from-html.svg)]()
+
 # CSS from HTML
 
 ![css-from-html](https://raw.githubusercontent.com/kakRostropovich/atom-css-from-html/master/description.gif)
